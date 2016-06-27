@@ -1,0 +1,365 @@
+
+body {
+	background: url(../img/bg3.jpg);
+	height:100%;
+	margin:0 auto;
+	padding:0 auto;
+	background-attachment:fixed;
+	background-position: center;
+	background-size: cover;
+
+}
+
+#top {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,092106+9,000000+100 */
+	background: #000000; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, #000000 0%, #092106 9%, #000000 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover, #000000 0%,#092106 9%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center, #000000 0%,#092106 9%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	width: 100%;
+	height: 66px;
+	text-align: center;
+	position: fixed;
+	top: -33px;
+	z-index: 15;
+}
+
+.top_line{
+	border: 0;
+	box-shadow: 0px 1px 1px rgba(255,255,255,0.3);
+	background: -moz-radial-gradient(center, ellipse cover, rgba(0,0,0,1) 0%, rgba(0,0,0,0.06) 67%, rgba(0,0,0,0) 71%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(0,0,0,1)), color-stop(67%,rgba(0,0,0,0.06)), color-stop(71%,rgba(0,0,0,0)));
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(0,0,0,1) 0%,rgba(0,0,0,0.06) 67%,rgba(0,0,0,0) 71%);
+	background: -o-radial-gradient(center, ellipse cover, rgba(0,0,0,1) 0%,rgba(0,0,0,0.06) 67%,rgba(0,0,0,0) 71%);
+	background: -ms-radial-gradient(center, ellipse cover, rgba(0,0,0,1) 0%,rgba(0,0,0,0.06) 67%,rgba(0,0,0,0) 71%);
+	background: radial-gradient(ellipse at center, rgba(0,0,0,1) 0%,rgba(0,0,0,0.06) 67%,rgba(0,0,0,0) 71%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000',GradientType=1 );
+	width: 100%;
+	height: 2px;
+	bottom: 0px;
+	position: absolute;
+}
+
+.head {
+	position: absolute;
+	width: 100%;
+	height: 300px;
+	top:33px;
+	background-repeat: no-repeat;
+	top: 33px;
+	background-size: 50%;
+}
+
+.btn_Home {
+	padding: 3px 16px;
+	margin: 1px auto;
+
+	text-decoration:none;
+	display:inline-block;
+	cursor:pointer;
+	color:#C5FFBA;
+	font-weight: normal;
+	font-family: georgia;
+	font-size:13px;
+	position: absolute;
+	bottom:3px;
+	left: 10px;
+}
+
+.btn_Home:hover {
+	color:#A0FF8E;
+	text-decoration:none;
+}
+
+.btn_Game {
+	padding: 3px 16px;
+	margin: 1px auto;
+	text-decoration:none;
+	display:inline-block;
+	cursor:pointer;
+	color:#C5FFBA;
+	font-weight: normal;
+	font-family: georgia;
+	font-size:13px;
+	position: absolute;
+	bottom:3px;
+	left: 111px;
+}
+
+.btn_Game:hover {
+	color:#A0FF8E;
+	text-decoration:none;
+}
+
+.btn_Login {
+	padding: 3px 16px;
+	margin: 1px auto;
+	text-decoration:none;
+	display:inline-block;
+	cursor:pointer;
+	color:#C5FFBA;
+	font-weight: normal;
+	font-family: georgia;
+	font-size:13px;
+	position: absolute;
+	bottom:3px;
+	right: 7px;
+}
+
+.btn_Login:hover {
+	color:#A0FF8E;
+	text-decoration:none;
+}
+
+.btn_Registr {
+	padding: 3px 16px;
+	margin: 1px auto;
+
+	text-decoration:none;
+	display:inline-block;
+	cursor:pointer;
+	color:#C5FFBA;
+	font-weight: normal;
+	font-family: georgia;
+	font-size:13px;
+	position: absolute;
+	bottom:3px;
+	right: 111px;
+}
+
+.btn_Registr:hover {
+	color:#A0FF8E;
+	text-decoration:none;
+}
+
+.lng{
+	padding: 3px 0px;
+	margin: 1px auto;
+	text-decoration:none;
+	display:inline-block;
+	cursor:pointer;
+	color:#C5FFBA;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	position: absolute;
+	bottom:3px;
+	left: 225px;
+
+	width: 80px;
+	height: 24px;
+}
+
+#btn_eng{
+	width:27px;
+	height:20px;
+	position: absolute;
+	background-image: url("../img/menu_flag_en.png");
+	top: 2px;
+	left: 7px;
+}
+
+#btn_ru{
+	width:27px;
+	height:20px;
+	position: absolute;
+	background-image: url("../img/menu_flag_ru.png");
+	top: 2px;
+	left: 45px;
+}
+
+.btn_Logout {
+	padding: 3px 16px;
+	margin: 1px auto;
+
+	text-decoration:none;
+	display:inline-block;
+	cursor:pointer;
+	color:#C5FFBA;
+	font-weight: normal;
+	font-family: georgia;
+	font-size:13px;
+	position: absolute;
+	bottom:3px;
+	right: 10px;
+
+}
+
+.btn_Logout:hover {
+	color:#A0FF8E;
+	text-decoration:none;
+}
+
+.btn_Config {
+	padding: 3px 16px;
+	margin: 1px auto;
+
+	text-decoration:none;
+	display:inline-block;
+	cursor:pointer;
+	color:#C5FFBA;
+	font-weight: normal;
+	font-family: georgia;
+	font-size:13px;
+	position: absolute;
+	bottom:3px;
+	right: 110px;
+
+}
+
+.btn_Config:hover {
+	color:#A0FF8E;
+	text-decoration:none;
+}
+
+.btn_Games {
+	padding: 3px 16px;
+	margin: 1px auto;
+
+	text-decoration:none;
+	display:inline-block;
+	cursor:pointer;
+	color:#F98282;
+	font-weight: normal;
+	font-family: georgia;
+	font-size:13px;
+	position: absolute;
+	bottom:3px;
+	right: 208px;
+
+}
+
+.btn_Games:hover {
+	color:#F96C6C;
+	text-decoration:none;
+}
+
+.nickName {
+	right: 350px;
+	color: rgb(178, 254, 255);
+	position: absolute;
+	bottom: 6px;
+	font-weight: normal;
+	font-family: georgia;
+	font-size:13px;
+}
+#main{
+	width: 100%;
+	top: 370px;
+	position: relative;
+	min-height: 300px;
+}
+.modal-sm-login {
+	width: 300px;
+}
+
+.modal-sm-reg {
+	width: 493px;
+}
+
+.login_form{
+	border-bottom-left-radius: 40px 40px;
+	border-top-right-radius: 40px 40px;
+	box-shadow: 0px 7px 50px #9ac0ff;
+}
+
+.small-warning {
+	padding: 3px;
+}
+
+.small_wnd{
+	padding-bottom: 5px;
+}
+
+.modal-backdrop
+{
+	opacity:0.95 !important;
+	background-color:#000000 !important
+}
+
+label.error {
+	padding-right: 25px;
+	background-position: right top;
+}
+
+.reg_form_label{
+	text-align: center;
+	color: white;
+	font-family: georgia;
+	font-size: 14px;
+}
+
+.help-block{
+	font-family: georgia;
+	font-size: 13px;
+	text-align: center;
+}
+
+#img_see_olol{
+	background-size: 50px;
+	height: 50px;
+	width: 50px;
+	margin-left: 5px;
+	float: left;
+	margin-top: 10px;
+}
+
+#img_see_champ{
+	background-size: 30px;
+	height: 30px;
+	width: 30px;
+	float: left;
+}
+
+#img_see {
+	width: 300px;
+	height: 150px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#img_runes {
+	background-size: 30px;
+	height: 30px;
+	width: 30px;
+	margin-left: 5px;
+	margin-top: 3px;
+	float: left;
+	margin-bottom: 3px;
+}
+
+.head2 {
+	position: absolute;
+	width: 100%;
+	height: 200px;
+	top: 300px;
+
+	border-top: solid 1px black;
+	border-bottom: solid 1px black;
+	background: url(../img/bg1.jpg);
+	transform: rotateX(45deg);
+	background-size: 20%;
+}
+.mast_table{
+
+	text-align: center;
+	height: 36px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+}
+
+a:hover,
+a:focus {
+	color:#A0FF8E;
+	text-decoration:none;
+}
+
+.main_light {
+	position: fixed;
+	width: 3000px;
+	height: 1428;
+	top: calc( 50% - 1500px );
+	left: calc( 50% - 714px );
+}
